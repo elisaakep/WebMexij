@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="stylecontactenos.css">
+    <link rel="stylesheet" href="css/footerstyle.css">
+    <link rel="stylesheet" href="css/stylecontactenos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <header class="barra">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <img src="imeges/logo.png" class="logo">
+                <h2 class="nav_title">Mexij Solutions</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+
+                <li class="nav__items">
+                  <a href="#" class="nav_links">Inicio</a>
+                </li>
+      
+                <li class="nav__items">
+                  <a href="#Nosotros" class="nav_links">Quienes Somos
+                  </a>
+                </li>
+      
+                <li class="nav__items">
+                  <a href="#Industria" class="nav_links">Industria
+                  </a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="#Soluciones" class="nav_links">Soluciones
+                    </a>
+                  </li>
+
+                  <li class="nav__items">
+                    <a href="#" class="nav_links">Contacto
+                    </a>
+                  </li>
+                  <img src="./svgimages/icon-close.svg" class="nav__close">
+              </ul>
+              <div class="nav__menu">
+                <img src="./svgimages/menu.svg" alt="nav_img">
+              </div>
+        </nav>
+        <section class="barra__container container">
+            <h1 class="barra__title">Mexij Solutions</h1>
+            
+        </section>
+        <section>
+            <div class="registro-formulario">
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+            
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required>
+            
+                    <label for="industria">Industria:</label>
+                    <input type="text" id="industria" name="industria" required>
+            
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+            
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </form>
+                <a href="#" class="cta">Contactar</a>
+            </div>
+        </section>
+    </header>
+
+
+<footer class="footer">
+    <section class="footer__container container">
+        <nav class="nav nav--footer">
+            <h2 class="footer__title">MEXIJ</h2>
+
+            <ul class="nav__link nav__link--footer">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Nosotros" class="nav__links">Acerca de Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Industria" class="nav__links">Industria</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Soluciones" class="nav__links">Soluciones</a>
+                </li>
+            </ul>
+        </nav>
+
+        <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+            <h2 class="footer__newsletter">Contactanos</h2>
+            <div class="footer__inputs">
+                <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                <input type="submit" value="Registrate" class="footer__submit">
+            </div>
+        </form>
+    </section>
+
+    <section class="footer__copy container">
+        <div class="footer__social">
+            <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+            <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+            <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+        </div>
+
+        <h3 class="footer__copyright">Instituto Tecnologico de Celaya</h3>
+    </section>
+</footer>
+
+<script src="./js/slider.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/pastimes.js"></script>
+    <script src="./js/scroll.js"></script>
+</body>
+</html>

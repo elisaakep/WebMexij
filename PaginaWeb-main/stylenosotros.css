@@ -1,0 +1,41 @@
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    background-color: teal;
+  }
+
+  .portada {
+    width: 60%;
+    margin: 0 auto; /* Centrar el contenedor */
+}
+img {
+    width: 100%; /* Ajustar la imagen al ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.contenedor1{
+    font-size: 20px;
+}
+
+section {
+    
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto en cada contenedor */
+}
+
+.imgPersona {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+}
+
+p{
+    width: 60%;
+    margin: 0 auto; /* Centrar el contenedor */
+}
